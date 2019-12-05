@@ -25,5 +25,12 @@ namespace CognitiveServices.Translator.Translate
                     _text = value;
             }
         }
+
+        
+		/// <summary>
+		/// User optional key
+		/// </summary>
+		public int Key { get; set; }
+        
     }
 }
